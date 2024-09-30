@@ -34,26 +34,7 @@
         h1{
             font-size: 50px;
         }
-        /* Media quaries */
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 40px; 
-            }
-            .btn-mod {
-                padding: 12px 20px;
-            }
-        }
-
-        @media (max-width: 576px) {
-            h1 {
-                font-size: 30px; 
-            }
-            .btn-mod {
-                padding: 10px 15px; 
-                width: 100%; 
-                margin: 10px 0; 
-            }
-        }
+      
     </Style>
 </head>
 <body>
@@ -63,8 +44,8 @@
         <!--Main Buttons for Tasks -->
         <div class="main-buttons">
             <a class='btn btn-primary btn-lg btn-mod' href='/ERP-System/Customer/view_customer.php'>Customer</a>
-            <a class='btn btn-primary btn-lg btn-mod' href="item.php">Item</a>
-            <a class='btn btn-primary btn-lg btn-mod' href="reports.php">Reports</a>
+            <a class='btn btn-primary btn-lg btn-mod' href='/ERP-System/Item/view_item.php'>Item</a>
+            <a class='btn btn-primary btn-lg btn-mod' href='/ERP-System/Reports/report.php'>Reports</a>
         </div>
     </div>
 
